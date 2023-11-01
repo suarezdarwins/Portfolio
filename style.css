@@ -36,6 +36,7 @@ h2{
     text-decoration: uppercase;
     letter-spacing: 4px;
 }
+
 .social-media {
     margin-top: 1rem;
     display: flex;
@@ -69,13 +70,13 @@ a:hover {
  height: 100px;
  width: 100px;
  position: absolute;
-
 right: 0;
 top: 0;
 display: flex;
 justify-content: center;
 cursor: pointer;
-z-index: 400s ease-in-out 0s;
+z-index: 9999; 
+transition: 400ms ease-in-out 0s;
 }
 
 .checkbox .trace {
@@ -218,6 +219,7 @@ z-index: 400s ease-in-out 0s;
         cursor: pointer;
         transition: 0.5s ease-in-out;
         }
+
     .card-text {
         width: 40%;
         letter-spacing: 1px;
